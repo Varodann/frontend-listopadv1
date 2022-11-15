@@ -1,0 +1,99 @@
+/*h1{*/
+/*    text-align: center;*/
+/*    color: white;*/
+/*    background-color: red;*/
+/*}*/
+#tytul {
+    text-align: center;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.box_kulki {
+    display: flex;
+    flex-direction: row;
+}
+
+.bulka_gorna {
+    width: 400px;
+    height: 60px;
+    background-color: #D3A15F;
+    border-bottom: 10px solid burlywood;
+    border-radius: 100px 100px 30px 30px;
+
+}
+
+.ser {
+    width: 450px;
+    height: 10px;
+    background-color: #FFD700;
+    border-bottom: 6px solid #DAA520;
+    /*border-radius: 100px 100px 30px 30px;*/
+}
+
+.pomidor {
+    width: 400px;
+    height: 25px;
+    background-color: #FF0000;
+    border-bottom: 3px solid #DC143C;
+}
+
+.mieso {
+    width: 400px;
+    height: 20px;
+    background-color: #CC6633;
+    border-bottom: 5px solid #993300;
+    border-radius: 100px 100px 100px 100px;
+}
+
+.cebula {
+    width: 350px;
+    height: 30px;
+    background-color: #800080;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.kulki_cebulki {
+    width: 30px;
+    height: 30px;
+    background-color: #DDA0DD;
+    border-radius: 50%;
+}
+
+.kulka {
+    width: 75px;
+    height: 75px;
+    background-color: saddlebrown;
+    border-radius: 50%;
+}
+
+.ogorek {
+    width: 350px;
+    height: 25px;
+    background-color: #90EE90;
+    border-bottom: 15px solid #008000;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.dolna_bulka {
+    width: 400px;
+    height: 60px;
+    background-color: #D3A15F;
+    border-top: 10px solid burlywood;
+    border-radius: 30px 30px 100px 100px;
+}
+
+.talerz {
+    height: 20px;
+    width: 500px;
+    background-color: #A2A2A2;
+}

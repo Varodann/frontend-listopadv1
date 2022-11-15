@@ -1,0 +1,36 @@
+.first_row_of_forms{
+    display: flex;
+    flex-direction: row;
+}
+
+.secound_row_of_forms{
+    display: flex;
+    flex-direction: row;
+}
+
+.third_row_of_forms{
+    display: flex;
+    flex-direction: row;
+}
+
+.fourth_row_of_forms{
+    display: flex;
+    flex-direction: row;
+}
+
+.fifth_row_of_forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Można to nazwać jako frame*/
+.user_first_name {
+    border: 1px solid black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.message{
+    width: 400px;
+    height: 400px;
+}
